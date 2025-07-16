@@ -1,0 +1,32 @@
+①
+input:
+10
+3
+type1.A.10011.001.Tokyo.Japan
+type1.A.10012.001.Tokyo.Japan
+type1.B.10012.001.Tokyo.Japan
+type1.A.10011.002.Tokyo.Japan
+type2.10001.001.Nagoya.Japan
+type1.A.10012.002.Tokyo.Japan
+type1.B.10012.002.Tokyo.Japan
+type2.B.10012.002.Tokyo.Japan
+type1.10001.001.Osaka.Japan
+type2.10001.001.Osaka.Japan
+
+output:
+002.Tokyo.Japan,4
+001.Tokyo.Japan,3
+001.Osaka.Japan,2
+001.Nagoya.Japan,1
+
+②
+input:
+3
+2
+office01.city1.prefectureA.countryX
+office01.city1.prefectureA.countryY
+factory01.area1.city2.prefectureA.countryY
+
+output:
+ prefectureA.countryY 2
+prefectureA.countryX 1
